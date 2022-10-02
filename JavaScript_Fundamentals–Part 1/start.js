@@ -1,7 +1,5 @@
-let a ;
-if(a){
-    console.log("if")
+let bill = 1.3;
+let a=1.2;
+// let tip = bill >= 50 && bill <= 300 ? 0.15*bill : 0.2*bill ;
 
-}else{
-    console.log("else")
-}
+console.log("  12   "/2);

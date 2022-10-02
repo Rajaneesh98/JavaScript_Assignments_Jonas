@@ -26,5 +26,5 @@ switch (day) {
     break;
 
   default:
-    console.log("enter valid day");
+    console.log("Enter valid day");
 }
