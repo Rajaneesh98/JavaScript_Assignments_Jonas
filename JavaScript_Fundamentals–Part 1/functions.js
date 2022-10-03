@@ -5,7 +5,7 @@ function age1(birthyear){           // fuction declaration
 }
 
 const age2= function (birthyear) {    // function expression
-
+    
     const age=2022-birthyear;
     return age;
 }
