@@ -15,11 +15,11 @@ temp = arr.unshift("x"); // temp stores the new length of the array.
 
 arr.pop(); // deletes the last element.
 
-let deleted = arr.pop(); // deleted stores the deleted element.
+temp = arr.pop(); // temp stores the deleted element.
 
 arr.shift(); // deletes the first element.
 
-deleted = arr.shift(); // deleted stores the deleted element.
+temp = arr.shift(); // temp stores the deleted element.
 
 temp = arr.indexOf(3); // temp stores the index of the element given or -1.
 
