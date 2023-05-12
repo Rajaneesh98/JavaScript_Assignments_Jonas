@@ -7,19 +7,19 @@ console.log(secNumber);
 let score = 20;
 let highScore = 0;
 
-const scoreCal = function () {
-  score--;
-  document.querySelector('.score').textContent = score;
-};
+// const scoreCal = function () {
+//   score--;
+//   document.querySelector('.score').textContent = score;
+// };
 
-const guessAgain = function (str) {
-  if (score > 1) {
-    document.querySelector('.message').textContent = str;
-    scoreCal();
-  } else {
-    document.querySelector('.message').textContent = '💥You lost the Game';
-  }
-};
+// const guessAgain = function (str) {
+//   if (score > 1) {
+//     document.querySelector('.message').textContent = str;
+//     scoreCal();
+//   } else {
+//     document.querySelector('.message').textContent = '💥You lost the Game';
+//   }
+// };
 
 const checkHandler = function () {
   let guess = Number(document.querySelector('.guess').value);
